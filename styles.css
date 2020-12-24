@@ -16,20 +16,14 @@ body {
     max-width: 1000px;
 }
 
+@media only screen and (max-width: 700px) {
+    #main-background {
+        width: 90%;
+    }
+}
+
 #lead-image img {
     width: 80%;
-}
-
-#dog-mail {
-    padding: 10px;
-}
-
-#dog-mail p {
-    /* background-color: slategrey; */
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    margin-top: 0;
 }
 
 #ad img {
@@ -46,12 +40,11 @@ body {
     margin-bottom: 50px;
 }
 
-
-
-h2, h1 {
+h2,
+h1 {
     width: 50%;
     margin: 0 auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     margin-top: 50px;
 }
@@ -61,14 +54,19 @@ h2, h1 {
     margin: 0 auto;
 }
 
+#griff-pics img {
+    width: 90%;
+}
+
 
 #story p {
     color: white;
     font-size: 200%;
-margin: 70px;
+    margin: 70px;
 }
 
-#story img, video {
+#story img,
+video {
     width: 60%;
     max-width: 500px;
     margin: 20px;
@@ -76,8 +74,34 @@ margin: 70px;
     border: 2vw solid blue;
 }
 
+@media only screen and (max-width: 700px) {
+
+    #story img,
+    video {
+        width: 80%;
+    }
+
+    #story p {
+        margin: 10px auto;
+        font-size: 180%;
+        width: 80%;
+    }
+}
+
 h1 {
     color: white;
     padding-bottom: 100px;
 }
 
+
+#dog-mail {
+    padding: 10px;
+}
+
+#dog-mail p {
+    /* background-color: slategrey; */
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
