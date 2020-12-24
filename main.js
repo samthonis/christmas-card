@@ -1,4 +1,4 @@
-const adArray = ["/ad_amazon.gif", "/adanim.gif", "addesignHwbanLB.gif", "alarmGPA.gif"];
+const adArray = ["ad_amazon.gif", "adanim.gif", "addesignHwbanLB.gif", "alarmGPA.gif"];
 
 const getAd = () => {
 
@@ -7,4 +7,4 @@ const getAd = () => {
 }
 let newAd = getAd();
 console.log(newAd);
-document.getElementById("ad").innerHTML = `<img src="/assets/${newAd}" alt="">`
+document.getElementById("ad").innerHTML = `<img src="assets/${newAd}" alt="">`
